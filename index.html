@@ -23,6 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -43,7 +44,7 @@
 
         <!--Renga profile pic-->
         <figure class="avatar-box">
-          <img src="./assets/images/renga_face.png" alt="Renga Praveen" width="80">
+          <img src="./assets/images/renga_pic.jpeg" alt="Renga Praveen" width="80" style="border-radius: 8%;">
         </figure>
 
         <!--renga name session & role-->
@@ -52,6 +53,28 @@
 
           <p class="title">Flutter developer</p>
         </div>
+
+        <!--renga CV download-->
+        <a href="https://drive.google.com/file/d/1Wa3Jd7M-tNlj3nuAiEQC19s9aphpgQSN/view?usp=sharing" download target="_blank" style="text-decoration: none;">
+          <button style="
+            background-color: #d9b8ff;
+            color: #1b1919;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
+            border-radius: 8px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease;
+          ">
+            <i class="fas fa-download"></i>
+            Download CV
+          </button>
+        </a>
 
         <button class="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
